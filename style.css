@@ -1,25 +1,21 @@
 /*configura degrade*/
-.box-degrade{    
+aside{    
     background-image: linear-gradient(to left, #4b6cb7, #182848);
     background-size: 500% 100%;
     animation: degrade-animado 5s infinite alternate;
     border-radius: 5px;
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
-.box-degrade *{
-    font-size: 1.5em;
-    text-decoration: none;
-    color: #ffffff;
-}
+
 /*efeito para itens de menu**/
-.box-degrade a{
+aside a{
     -webkit-transition: .5s ease-in;
      -moz-transition: .5s ease-in;
      -o-transition: .5s ease-in;
      transition: .5s ease-in
 }
 
-.box-degrade a:hover{
+aside a:hover{
     color: #182848;
     font-size: 2em;
     -webkit-transition: .5s ease-in;
