@@ -29,7 +29,7 @@
 }
 
 #perfil{
-    width: 80%;
+    width: 25vw;
     border: #ffffff solid 2px;
     border-radius: 74% 26% 65% 35% / 31% 64% 36% 69%;
     -webkit-transition: .5s ease-in;
@@ -39,7 +39,7 @@
 }
 
 #perfil:hover{
-    width: 90%;
+    width: 30vw;
     border: #c8d608ec solid 2px;    
     border-radius: 31% 64% 36% 69% / 74% 26% 65% 35%;
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
