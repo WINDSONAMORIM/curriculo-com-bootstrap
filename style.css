@@ -1,0 +1,70 @@
+/*configura degrade*/
+.box-degrade{    
+    background-image: linear-gradient(to left, #4b6cb7, #182848);
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+.box-degrade *{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+}
+/*efeito para itens de menu**/
+.box-degrade a{
+    -webkit-transition: .5s ease-in;
+     -moz-transition: .5s ease-in;
+     -o-transition: .5s ease-in;
+     transition: .5s ease-in
+}
+
+.box-degrade a:hover{
+    color: #182848;
+    font-size: 2em;
+    -webkit-transition: .5s ease-in;
+     -moz-transition: .5s ease-in; 
+     -o-transition: .5s ease-in;
+     transition: .5s ease-in
+}
+
+#perfil{
+    width: 80%;
+    border: #ffffff solid 2px;
+    border-radius: 74% 26% 65% 35% / 31% 64% 36% 69%;
+    -webkit-transition: .5s ease-in;
+     -moz-transition: .5s ease-in; 
+     -o-transition: .5s ease-in;
+     transition: .5s ease-in
+}
+
+#perfil:hover{
+    width: 90%;
+    border: #c8d608ec solid 2px;    
+    border-radius: 31% 64% 36% 69% / 74% 26% 65% 35%;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+div img{
+    width: 40px;
+}
+
+/*anima o degrade*/    
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+@keyframes bounce{
+	50%{
+		transform: translateY(-10px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
